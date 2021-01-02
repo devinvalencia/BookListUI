@@ -72,4 +72,4 @@ document.getElementById('book-list').addEventListener('click', function(e){
   let ui = new UI();
   ui.deleteBook(e.target);
   e.preventDefault();
-})
+});
